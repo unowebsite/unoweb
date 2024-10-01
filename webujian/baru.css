@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+}
+.hom{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.219) , #0000003f), url(gmb/anders-jilden-cYrMQA7a3Wc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.nav{
+    background-image: linear-gradient(to right, rgba(69, 80, 228, 0.548) , #ff952385);
+    margin-bottom: -10vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    position: fixed;
+}
+.nav ul{
+    margin-top: 1vw;
+    background-color: rgba(255, 255, 255, 0.438);
+    padding: 2vw;
+    border-radius:35px ;
+    padding-left: 4vw;
+}
+.nav ul li{
+    color: white;
+    list-style: none;
+    text-align: center;
+    display: inline-block;  
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right:3vw;
+    border-radius: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 13px rgb(0, 0, 0);
+    padding: 1vw;
+    font-size: 1.2vw;
+    transition: 500ms;
+}
+.nav a:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgba(0, 10, 148, 0.267) , #ff952352);
+    box-shadow: 0px 1px 10px rgb(119, 119, 119);
+    text-shadow: 0px 0px 13px rgb(255, 255, 255);
+    border-radius: 35px;
+}
+.hom h1{
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 30vw;
+    line-height: 7vw;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    margin-top: 16vw;
+    font-size: 5.5vw;
+}
+.hom{
+    margin-right: 50vw;
+    
+}
+.profil img{
+    border-bottom: 2px solid white;
+    padding-right: 2vw;
+    margin-top: 14vw;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 48% 48% 0% 0%;
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+
+    margin-left: -95vw;
+}
+.hom p{
+    font-size: 1.5vw;
+    background-image: linear-gradient(to right, rgba(0, 10, 148, 0.267) , #ff952352);
+    margin-top: 30vw;
+    margin-right: 52vw;
+    transition: 0.5s;
+    margin-left: -70vw;
+    box-shadow: 0px 1px 10px rgb(119, 119, 119);
+    padding: 1.5vw;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    
+}
+.hom p:hover{
+    background-image: linear-gradient(to right, rgba(0, 17, 255, 0.267) , #ff840052);
+    padding: 1.7vw;
+    margin-right: 51vw;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.learn a{
+    text-decoration: none;
+}
+
+/* ABOUT */
+.semuaa{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to right, rgba(0, 4, 58, 0.267) , #6d380052) , url(gmb/pawel-czerwinski-MqGEEmx8bKs-unsplash.jpg);
+    font-family: "Roboto", sans-serif;
+}
+.semuaa h1{
+    padding-top: 10vw;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+.gmbr img{
+    margin-left: 67vw;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 25%;
+    padding-right: 0.2vw;
+}
+.gmbr{
+    margin-top: -27vw;
+}
+.hal span{
+    color: red;
+}
+.hal h2{
+    margin-top: -2vw;
+    margin-bottom: 1vw;
+}
+.hal{
+    margin-right: 45vw;
+    margin-left: 2vw;
+    background-color: rgba(255, 255, 255, 0.623);
+    line-height: 2vw;
+    margin-top: 4vw;
+    padding: 2vw;
+    padding-top: 4vw;
+    border-radius: 15px;
+}
+.cnt i{
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.fa-whatsapp:hover{
+    color: rgb(78, 223, 59);
+}
+.fa-instagram:hover{
+    background: linear-gradient(to bottom right, #0077ff, #ff08f3, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.fa-facebook-square:hover{
+    color: rgb(12, 132, 212);
+}
+.fa-github:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.fa-twitter:hover{
+    color: rgb(12, 132, 212);
+}
+.cnt{
+    margin-top: -4vw;
+    margin-left: 2vw;
+    padding: 1vw;
+    margin-right: 56vw;
+    text-align: center;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* PORTOFOLIO */
+.all{
+    width: 100%;
+    height: 165vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.219) , #0000003f), url(gmb/simon-berger-twukN12EN7c-unsplash.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+
+}
+.jud{
+    padding-top: 10vw;
+    margin-left:6vw;
+}
+.jud p{
+    margin-right: 25vw;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    margin-top: -1vw;
+}
+.jud span{
+    font-size: 3.5vw;
+    text-shadow: 0px 0px 10px rgb(105, 105, 105);
+    color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto;
+  padding: 10px;
+  gap: 2vw;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 15px;
+    padding: 2vw;
+    font-size: 20px;
+    color: white;
+    font-weight:500;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .grid-item a{
+    text-decoration: none;
+    color: white;
+  }
+.grid-item p{
+    background-color: black;
+    padding: 1vw;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.grid-item:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    border: 1px solid white;
+}
+  .grid-item img{
+    box-shadow: 0px 1px 25px rgb(255, 255, 255);
+    border: 2px solid white;
+    margin-bottom: 1vw;
+    }
+  .p1 img{
+    width: auto;
+    height: 31vh;
+  }
+  .p2 img{
+    height: 31vh;
+    width: auto;
+  }
+  .p3 img{
+    height: 31vh;
+    width: auto;
+  }
+  .p4 img{
+    height: 31vh;
+    width: auto;
+  }
+  .grid-item p:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+  }
+  .jud p{
+    color: white;
+  }
+
+
+
+  /* KONTAK */
+  .bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.302), rgba(0, 0, 0, 0.388)), url(gmb/neven-krcmarek-HWbxSLvmSww-unsplash.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ji h1 {
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    margin-top: 2vw;
+    padding-top: 7vw;
+    justify-content: center;
+  }
+  .aaa{
+    display: flex;
+    justify-content: center;
+  }
+  .map {
+    margin-top: 1vw;
+    margin-left: -55vw;
+  }
+  .map iframe{
+    width: 20vw;
+    height: 20vw;
+  }
+  .map .ma {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 255);
+  }
+  
+  .map h1 {
+    color: white;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+  }
+  
+  .map p {
+    font-size: 1vw;
+    color: white;
+    margin-top: 1vw;
+  }
+  /* contak */
+  
+  .in input {
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+  }
+  
+  .in input[type=text]:focus {
+    border-radius: 15px;
+    text-align: center;
+    border-color: orange;
+    transition: 0.3s;
+
+    color: rgb(0, 0, 0);
+  }
+  
+  .in h1 {
+    font-size: 2vw;
+    text-align: center;
+  }
+  
+  .in {
+    background-image: linear-gradient(to right, rgba(69, 80, 228, 0.548) , #ff952385);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 15px;
+    padding-top: 2vw;
+    margin-right: 10vw;
+    margin-left: 12vw;
+    padding-bottom: 1vw;
+    margin-top: 8vw;
+    color: white;
+    box-shadow: 1px 0px 30px rgb(255, 255, 255);
+  }
+  
+  .in label {
+    font-size: 1vw;
+  }
+  
+  .in .sub {
+    font-size: 0.7vw;
+    color: white;
+    margin-top: 1vw;
+    background-image: linear-gradient(to right, rgba(69, 80, 228, 0.548) , #ff952385);
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 20px;
+    padding: 0.5vw;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    transition: 1000ms;
+    cursor: pointer;
+    box-shadow: 1px 0px 30px rgb(255, 255, 255);
+  }
+  
+  .in .sub:hover {
+    font-size: 0.7vw;
+    margin-top: 1vw;
+    background-image: linear-gradient(to right , #ff952385,rgba(69, 80, 228, 0.548));
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 20px;
+    padding: 0.5vw;
+    cursor: pointer;
+    text-align: center;
+  }
+  .kome{
+    padding: 2vw;
+  }
+  .us {
+    margin-left: 45vw;
+    margin-top: -30vw;
+  }
+
+  /* copyr */
+.cr {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2vw;
+  }
+  
+  .cr p {
+    color: white;
+    font-size: 1vw;
+  }
+  
+  .cr i {
+    background-color: orange;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    border-radius: 50%;
+    padding: 1vw;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .cr i:hover{
+    background-color: white;
+    box-shadow: 1px 0px 30px rgb(255, 255, 255);
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    border-radius: 50%;
+    color: orange;
+    padding: 1vw;
+    cursor: pointer;
+  }
+  .cr .fa-instagram:hover{
+    background-color: white;
+    box-shadow: 1px 0px 30px rgb(255, 255, 255);
+    font-size: 1.5vw; 
+    margin-top: 1vw;
+    border-radius: 50%;
+    color: orange;
+    padding: 1vw;
+    cursor: pointer;
+  }
+  .cr h1 {
+    color: white;
+    font-size: 1.5vw;
+  }
+  
+  .end{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .end ul {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+  }
+  
+  .end li {
+    list-style: none;
+    margin-top: 3vw;
+  }
+  
+  .end ul li:hover {
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+  }
+  
+  .end a {
+    color: white;
+    font-size: 1vw;
+    margin-top: -2.3vw;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  
